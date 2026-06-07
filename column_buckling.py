@@ -10,10 +10,7 @@ def find_critical_load(L, E, A, r, c, e, sigma_allow):
 
     Return: העומס P בניוטון (float)
     """
-    import numpy as np
-from scipy import optimize
-
-def column_stress_error(P, L, E, A, r, c, e, sigma_allow):
+ def column_stress_error(P, L, E, A, r, c, e, sigma_allow):
     # פרמטרים לדוגמה
     #A, E, L, r, e, c = 5000, 200000, 3000, 50, 20, 100
     
